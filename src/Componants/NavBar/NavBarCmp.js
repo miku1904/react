@@ -9,7 +9,7 @@ function NavBarCmp() {
         	<li><Link to="/index"  >index</Link></li>
         	<li><Link to="/" >home</Link></li>
             <li><Link to="/main">main</Link></li>
-            <li><Link to="Profile.html" >profile</Link></li>
+            <li><Link to="/profile" >profile</Link></li>
         </ul>
     </div>
   )
