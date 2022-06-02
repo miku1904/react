@@ -1,14 +1,16 @@
 import React from 'react'
-import Navlogo from '../Header/Navlogo';
-import SearchBar from '../Header/SearchBar';
+// import Header from '../Pages/Header'
+import Navlogo from '../Header/Navlogo'
+import SearchBar from '../Header/SearchBar'
 
 function Header() {
     return (
+        
         <header>
             <div className="container">
                 <div className="row">
-                    <Navlogo />
-                    <SearchBar />            
+                  <Navlogo/>
+                    <SearchBar/>
                 </div>
             </div>
             <div className="inner-bg"><span></span></div>
@@ -16,4 +18,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default Header

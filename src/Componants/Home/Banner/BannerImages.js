@@ -14,4 +14,4 @@ function BannerImages() {
   )
 }
 
-export default BannerImages;
+export default BannerImages
